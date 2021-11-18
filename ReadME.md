@@ -32,7 +32,7 @@
  </table>
 
 ### Stats Preview Card
-[Link to challange](https://www.frontendmentor.io/solutions/second-attempt-in-this-project-PcNHYaO7h)
+[Link to challange](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
 <table>
   <tr>
