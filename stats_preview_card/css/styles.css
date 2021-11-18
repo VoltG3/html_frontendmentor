@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* { margin: 0; }
+
+html, body {
+    margin: 0;
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        max-width: 1440px;
+        height: 100%;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.page {
+    display: flex;
+        max-width: 1440px;
+        margin: 0 100px 0 100px;
+    background-color: hsl(244, 38%, 16%); 
+    border-radius: 12px;
+}
+
+    .page_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex: 1 1 500px;
+    }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+                padding-left: 70px;
+                padding-right: 100px;
+        }
+
+            .content div {
+                margin-right: 35px;
+            }
+
+            .spacer {
+                height: 30px;
+            }
+
+        .tiles {
+            display: flex;
+            justify-content: space-between;
+                padding-left: 70px;
+                padding-right: 135px;
+        }
+
+    .page_img {
+        flex: 1 1 500px;
+            background-color: hsl(277, 64%, 61%);
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+        .page_img img {
+            opacity: 0.5;
+            object-fit: cover;
+                height: 100%;
+                width: 100%;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+h1 { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    font-size: 38px;
+        color: hsl(0, 0%, 100%);
+}            
+
+h3 { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    font-size: 30px;
+        color: hsl(0, 0%, 100%);
+}
+                          
+p { 
+    font-family: 'Lexend Deca', sans-serif; 
+    /*font-weight: 400;*/
+    text-justify: left;
+    line-height: 23px;
+        color: hsla(0, 0%, 100%, 0.75);
+}
+                
+.tiles p { 
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6); 
+}
+            
+mark {
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(277, 64%, 61%);
+}

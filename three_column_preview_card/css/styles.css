@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive - 700;
+   font-family: 'Lexend Deca', sans-serif;       - 400 */
+  
+html, body {
+    margin: 0 auto;
+    height: 100%;
+}
+
+ html, .button        { background-color: hsl(0, 0%, 95%);  }
+.page                 { background-color: white;            }
+.section:nth-child(1) { background-color: hsl(31, 77%, 52%);   }
+.section:nth-child(2) { background-color: hsl(184, 100%, 22%); }
+.section:nth-child(3) { background-color: hsl(179, 100%, 13%); }
+.section:nth-child(1) .button { color: hsl(31, 77%, 52%);   }
+.section:nth-child(2) .button { color: hsl(184, 100%, 22%); }
+.section:nth-child(3) .button { color: hsl(179, 100%, 13%); }
+
+.button:hover { cursor:move; }
+.section:nth-child(1) .button:hover { background-color: hsl(31, 77%, 52%);   color: hsl(0, 0%, 95%); }
+.section:nth-child(2) .button:hover { background-color: hsl(184, 100%, 22%); color: hsl(0, 0%, 95%); }
+.section:nth-child(3) .button:hover { background-color: hsl(179, 100%, 13%); color: hsl(0, 0%, 95%); }
+
+ p  { color: hsla(0, 0%, 100%, 0.75); }
+ h1 { color: hsl(0, 0%, 95%);         }
+
+ h1      { font-family:'Big Shoulders Display', cursive; 
+         /*font-weight: 700;*/} 
+ p       { font-family:'Lexend Deca', sans-serif; 
+           font-size: 12px;
+           line-height: 20px; } 
+ .button { font-family:'Lexend Deca', sans-serif; 
+           font-size: 12px;      
+         /*font-weight: 400;*/}
+
+ h1 { text-transform: uppercase;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        max-width: 1440px;
+        height: 100%;
+    font-size: 15px;
+}
+
+   div { display: flex; flex-wrap: wrap; }
+   /*   { border: dotted 0.5px black;   }*/
+
+.page {
+    flex-direction: column;
+    align-items: center;
+        padding: 80px 110px 20px 110px;
+    box-shadow: 0px 30px 40px 0px hsl(0, 6%, 84%);
+}
+
+    .section {
+        flex-direction: column;
+        justify-content: space-between;
+            width: 180px;
+            height: 350px;
+        padding: 20px 25px 20px 25px;
+    }
+        .section:nth-child(1){
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .section:nth-child(3){
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .section div {
+            flex-direction: column;
+        }
+
+        .button {
+                width: 120px;
+            border-radius: 25px;
+            padding: 7px 0px 7px 0px;
+            border: solid 1px white;
+            text-align: center;
+        }

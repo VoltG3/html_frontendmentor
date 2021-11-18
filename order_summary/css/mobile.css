@@ -1,0 +1,6 @@
+@media all and (min-width: 375px) {
+
+    html  { background-image: url("../img/pattern-background-mobiles.svg"); }
+    .page { max-width: 330px; }
+    .page_content { margin: 23px 30px 35px 30px; }
+}

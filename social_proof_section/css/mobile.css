@@ -1,0 +1,81 @@
+@media all and (min-width: 375px) {
+  
+    div { flex-flow: nowrap; }
+
+    .page {
+            width: 375px;
+            height: 100%;
+        padding: 210px 0 90px 0;
+        box-shadow: none;
+    }
+
+    .section_up {
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .tile_left {flex-direction: column;}
+   
+        .section_up { 
+                height: auto;
+            margin-bottom: 0;
+        }
+    
+            .tile_left { 
+                padding-left: 10px;
+                /*flex: 1;*/
+            }
+    
+                h1 {
+                    text-align: center;
+                    margin: 40px 30px 20px 30px;
+                }
+
+                .tile_left p {
+                    text-align: center;
+                    margin: 0 10px 0 10px;
+                }
+    
+            .tile_right { 
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                /*flex: 2;*/
+            }
+    
+                .line_box {
+                        width: 334px;
+                    margin: 35px 0 35px 0;
+                    flex-direction: column;
+                }
+    
+                .line {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+                .line_box .line:nth-child(1) { align-self: center; padding: 12px 86px 0 86px; }
+                .line_box .line:nth-child(2) { align-self: center; padding: 12px 73px 0 73px; }
+                .line_box .line:nth-child(3) { align-self: center; padding: 12px 85px 0 85px; }
+
+                    .star_box { margin-right: 0; }
+                    .star_img { margin-right: 5px; }
+    
+        .section_down { 
+            flex-direction: column;
+                height: 100%;
+        }
+
+        .section_down .tile_down:nth-child(1) { align-self: center; }
+        .section_down .tile_down:nth-child(3) { align-self: center; } 
+
+            .tile_down {
+                flex-direction: column;
+                    width: 295px;
+            }
+
+                .header {
+                    justify-content: flex-start;
+                }                    
+}
