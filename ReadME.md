@@ -36,8 +36,8 @@
 
 <table>
   <tr>
-    <td style ="width: 80%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/stats_preview_card/desktop.png" alt="img"></td>
-    <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/stats_preview_card/mobile.png" alt="img"></td>
+    <td style ="width: 79%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/stats_preview_card/desktop.png" alt="img"></td>
+    <td style ="width: 21%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/stats_preview_card/mobile.png" alt="img"></td>
   <tr>
  </table>
  
