@@ -1,6 +1,16 @@
 ## Challenge FrontEndMentor
 <br>
 
+### Modern Art Gallery
+[Link to challange](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA)
+
+<table>
+  <tr>
+    <td style ="width: 80%;" ><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_index.png" alt="img"></td>
+    <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_location.png" alt="img"></td>
+  <tr>
+ </table>
+
 ### Social Proof Section
 [Link to challange](https://www.frontendmentor.io/solutions/social-proof-section-challenge-using-html-css-css-flexbox-ilfxB93EA)
 
