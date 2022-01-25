@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/* *************************** */
+/*                             */
+/*   1.color                   */
+/*   2.typography              */
+/*   3.grid                    */
+/*   4.svg                     */
+/*   5.img & tablet & mobile   */
+/*                             */
+/* *************************** */
+
+/* ************** */
+/*    1.colors    */
+/* ************** */
+
+    main   { background: var(--primary); color: var(--default);}
+    .subTile--1 p { color: var(--accent); }
+
+    footer { background-color: var(--accent); color: var(--primary); }
+  
+/* ****************** */
+/*    2.typography    */
+/* ****************** */
+
+    h2 { font-size: 70px; line-height: 70px; }
+
+    .subTile--1 p {
+        font-family: 'Big Shoulders Display', cursive;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+        .subTile--2, 
+        .subTile--3 { font-size: 22px; line-height: 32px; }
+
+/* ************ */
+/*    3.grid    */
+/* ************ */
+
+.page {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr fr 1fr;
+    grid-template-areas: 
+      "header" 
+      "main" 
+      "footer";
+    width: inherit;
+    height: 1392px;
+}   
+    header { grid-area: header; width: var(--w--default);  height: 600px; } 
+    main   { grid-area: main;   width: var(--w--default);  height: 548px; }
+    footer { grid-area: footer; width: var(--w--default);  height: 244px; }
+
+/* ***************** */
+/*   setion header   */
+/* ***************** */
+
+    /* section btn */ 
+    .btn { 
+        align-content: center;
+        grid-template-columns: 56px 240px;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "btn--arrow btn--right";
+        width: 260px;
+        height: 72px;
+        margin-left: 156px;
+    }
+        .btn--left { 
+            grid-area: btn--right; 
+            align-items: center; 
+            justify-content: center; 
+            height: inherit;
+        } 
+
+/* ************************ */
+/*   section main location  */
+/* ************************ */
+
+main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    grid-template-areas: 
+      "tl1 tl2";
+    margin: 0px 0 0px 0px;
+}
+    .side--left { grid-area: tl1;  width: 720px; height: 548px;  }
+    .side--left h2 { margin-top: 104px; margin-left: 165px;}
+    .side--right { grid-area: tl2;  width: 720px; height: 548px;  } 
+
+        .subTiles {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+              "sub1"
+              "sub2"
+              "sub3";
+            width: 720px;
+            height: 316px;
+            margin-top: 104px;
+        } 
+            .subTile--1 { grid-area: sub1; width: 355px; height: 36px; }
+            .subTile--2 { grid-area: sub2; width: 445px; height: 96px; padding-top: 24px;  }
+            .subTile--3 { grid-area: sub3; width: 540px; height: 128px; padding-top: 32px; }
+
+/* ****************** */
+/*   section footer   */
+/* ****************** */ 
+
+        .footer--center { margin-right: 104px; }
+ 
+/* *********** */
+/*    4.svg    */
+/* *********** */
+    .btn--right { transform: rotate(180deg); }
+    svg {fill: var(--primary); } 
+    svg:hover { fill: var(--default); }
+
+/* *************************** */
+/*    5.img & table & mobil    */
+/* *************************** */
+
+/* desktop first! */  
+    header { background-image: url(../img/1_desktop/image-map.png);     } 
+    header { background-size: cover; background-position: center;       }
+
+    /* ****** */
+    /* tablet */
+    /* ****** */
+
+    @media only screen and (max-width: 768px) {
+    header { background-image: url(../img/2_tablet/image-map.png);       }
+
+        :root { --w--default: 768px; }
+
+        h2 { font-size: 55px; line-height: 50px; }
+        .subTile--1 p { font-size: 32px; }
+        .subTile--2 p, 
+        .subTile--3 p { font-size: 18px; line-height: 28px; }
+
+        .page { max-height: 1252px; }
+        .btn { margin-left: 39px; }
+
+        header { width: var(--w--default);  height: 600px; } 
+        main   { width: var(--w--default);  height: 436px; }
+        footer { width: var(--w--default);  height: 216px; }
+
+        main {
+            gap: 0px;
+            margin: 0px 0px 0px 0px!important;
+        }
+            .side--left { width: 223px; height: 436px;  }
+            .side--left h2 { margin-top: 88px; margin-left: 39px; }
+            .side--right { width: 440px; height: 436px;  } 
+
+        .subTiles {
+            width: 689px;
+            height: 268px;
+            margin-top: 88px;
+        } 
+            .subTile--1 { width: 350px; height: 32px; }
+            .subTile--2 { width: 300px; height: 84px; padding-top: 24px;  }
+            .subTile--3 { width: 400px; height: 112px; padding-top: 32px; }
+
+        .footer--center { margin-right: 44px; }
+    }
+
+    /* ****** */
+    /* mobile */
+    /* ****** */
+
+    @media only screen and (max-width: 375px) {
+    header { background-image: url(../img/3_mobile/image-map.png);      }
+
+    :root { --w--default: 375px; }
+
+        h2 { font-size: 50px; line-height: 45px; }
+        .subTile--1 p { font-size: 32px; }
+
+        .page { max-height: 1379px; }
+        .btn { margin-left: 0px; }
+
+        header { width: var(--w--default);  height: 550px; } 
+        main   { width: var(--w--default);  height: 493px; }
+        footer { width: var(--w--default);  height: 336px; }
+
+        main {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 0px;
+            grid-template-areas: 
+              "tl1" 
+              "tl2";
+            margin: 0px 0px 0px 0px!important;
+        }
+            .side--left { grid-area: tl1; width: 343x; height: 100px;  }
+            .side--left h2 { margin-top: 0px; margin-left: 16px; }
+            .side--right { grid-area: tl2; width: 343px; height: 393px;  } 
+
+        .subTiles {
+            width: var(--w--default);
+            height: 268px;
+            margin-top: 48px;
+        } 
+            .subTile--1 { width: 343px; height: 32px; }
+            .subTile--2 { width: 343px; height: 84px; padding-top: 20px;  }
+            .subTile--3 { width: 323px; height: 140px; padding-top: 20px; }
+
+        .footer--center { margin-right: 16px; }
+    }
