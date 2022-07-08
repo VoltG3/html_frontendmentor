@@ -6,7 +6,7 @@
 
 <table>
   <tr>
-    <td style ="width: 80%;" ><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_index.png" alt="img"></td>
+    <td style ="width: 100px;" ><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_index.png" alt="img"></td>
     <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_location.png" alt="img"></td>
   <tr>
  </table>
