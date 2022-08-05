@@ -6,8 +6,8 @@
 
 <table>
   <tr>
-    <td style ="width: 100px;" ><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_index.png" alt="img"></td>
-    <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Modern_art_gallery/01_Desktop_location.png" alt="img"></td>
+    <td style ="width: 100px;" ><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/modern_art_gallery/01_Desktop_index.png" alt="img"></td>
+    <td style ="width: 20%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/modern_art_gallery/01_Desktop_location.png" alt="img"></td>
   <tr>
  </table>
 
@@ -16,8 +16,8 @@
 
 <table>
   <tr>
-    <td style ="width: 80%;" ><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Social_proof_section/desktop.png" alt="img"></td>
-    <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Social_proof_section/mobile.png" alt="img"></td>
+    <td style ="width: 80%;" ><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/social_proof_section/desktop.png" alt="img"></td>
+    <td style ="width: 20%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/social_proof_section/mobile.png" alt="img"></td>
   <tr>
  </table>
 
@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td style ="width: 80%;" ><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Order_summary/desktop.png" alt="img"></td>
-    <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Order_summary/mobile.png" alt="img"></td>
+    <td style ="width: 80%;" ><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/order_summary/desktop.png" alt="img"></td>
+    <td style ="width: 20%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/order_summary/mobile.png" alt="img"></td>
   <tr>
  </table>
 
@@ -36,8 +36,8 @@
 
 <table>
   <tr>
-    <td style ="width: 80%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Three_column_preview_card/desktop.png" alt="img"></td>
-    <td style ="width: 20%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Three_column_preview_card/mobile.png" alt="img"></td>
+    <td style ="width: 80%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/three_column_preview_card/desktop.png" alt="img"></td>
+    <td style ="width: 20%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/three_column_preview_card/mobile.png" alt="img"></td>
   <tr>
  </table>
 
@@ -46,8 +46,8 @@
 
 <table>
   <tr>
-    <td style ="width: 79%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Stats_preview_card/desktop.png" alt="img"></td>
-    <td style ="width: 21%;"><img src="https://github.com/VoltG3/HTML_frontendmentor/blob/master/Stats_preview_card/mobile.png" alt="img"></td>
+    <td style ="width: 79%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/stats_preview_card/desktop.png" alt="img"></td>
+    <td style ="width: 21%;"><img src="https://github.com/VoltG3/html_frontendmentor/blob/master/stats_preview_card/mobile.png" alt="img"></td>
   <tr>
  </table>
  
